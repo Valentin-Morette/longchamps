@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/longchamps/static/css/main.2480610c.css",
+    "main.js": "/longchamps/static/js/main.8e31cc1f.js",
+    "static/js/787.2eb401ba.chunk.js": "/longchamps/static/js/787.2eb401ba.chunk.js",
+    "static/media/fromage.jpg": "/longchamps/static/media/fromage.40a48b8c7a379794ae63.jpg",
+    "static/media/plat.jpg": "/longchamps/static/media/plat.c74bf5f42dd94b3a1084.jpg",
+    "static/media/dessert.jpg": "/longchamps/static/media/dessert.fdd92dc197979f0fc1dc.jpg",
+    "static/media/JosefinSans-VariableFont_wght.ttf": "/longchamps/static/media/JosefinSans-VariableFont_wght.762df0b3ada8d7e38f03.ttf",
+    "static/media/entre.jpg": "/longchamps/static/media/entre.95388163eee1ac75d39c.jpg",
+    "static/media/verres.jpg": "/longchamps/static/media/verres.145daaff0c40d3fb4fc2.jpg",
+    "static/media/menu.jpg": "/longchamps/static/media/menu.728b0c0641a375d5a241.jpg",
+    "index.html": "/longchamps/index.html",
+    "main.2480610c.css.map": "/longchamps/static/css/main.2480610c.css.map",
+    "main.8e31cc1f.js.map": "/longchamps/static/js/main.8e31cc1f.js.map",
+    "787.2eb401ba.chunk.js.map": "/longchamps/static/js/787.2eb401ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2480610c.css",
+    "static/js/main.8e31cc1f.js"
+  ]
+}
