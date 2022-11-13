@@ -1,3 +1,7 @@
+:root {
+  --white: #a9a9b3;
+}
+
 @font-face {
   font-family: 'jose';
   src: url(./assets/fonts/JosefinSans-VariableFont_wght.ttf);
@@ -7,10 +11,8 @@
   margin: 0;
   padding: 0;
 }
-a {
-  color: #a9a9b3;
-  text-decoration: none;
-}
+
+/* Variables globales */
 
 html {
   display: flex;
@@ -19,10 +21,25 @@ html {
 
 body {
   background-color: #292a2d;
-  color: #a9a9b3;
+  color: var(--white);
   font-family: 'jose';
   width: 1000px;
 }
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Titre et Navbar */
 
 .title {
   text-align: center;
@@ -35,7 +52,6 @@ nav > ul {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  list-style: none;
   margin-bottom: 3rem;
 }
 
@@ -43,18 +59,81 @@ nav > ul > li {
   font-size: 1.5rem;
 }
 
+/* Page Accueil */
+
 .verres {
   width: 100%;
-  border: 4px solid #a9a9b3;
+  border: 4px solid var(--white);
   border-radius: 1rem;
 }
 
-/* .intro {
-  height: 100vh;
+section {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.horaires,
+.contact {
+  width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.horaires > ul > li,
+.contact > ul > li {
+  margin: 0.5rem;
+}
+
+.horaires {
+  border-right: 3px solid var(--white);
+}
+
+/* Page Menu */
+
+.divImgMenu {
   display: flex;
   justify-content: center;
+}
+
+.imgMenu,
+.imgPlat {
+  border: 2px solid var(--white);
+  border-radius: 1rem;
+}
+
+.imgMenu {
+  width: 400px;
+}
+
+.imgPlat {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu {
+  margin: 3rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  background-image: url('./assets/clients.jpg');
-  background-size: cover;
-  background-position: center;
-} */
+  gap: 1.5rem;
+}
+
+.divImgPlat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menuContainer {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
