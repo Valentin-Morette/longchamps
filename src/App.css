@@ -7,6 +7,10 @@
   margin: 0;
   padding: 0;
 }
+a {
+  color: #a9a9b3;
+  text-decoration: none;
+}
 
 html {
   display: flex;
